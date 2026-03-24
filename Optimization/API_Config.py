@@ -2,8 +2,7 @@ import os
 import yaml
 
 def Config_API( path = os.path.abspath(__file__)):
-    # print(os.path.abspath(__file__))
-    # Get the current directory of the script
+    
     i = 1
     while i : 
         current_dir = os.path.dirname(path)
@@ -14,13 +13,6 @@ def Config_API( path = os.path.abspath(__file__)):
             i = 0
         else :
             path = current_dir
-
-    # print(current_dir)
-    # Construct the path to the parent directory
-    # parent_dir = os.path.join(current_dir, '..')
-    # print(parent_dir)
-
-    # Construct the full path to secrets.yaml
     secrets_file_path = os.path.join(current_dir, 'secrets.yaml')
     print(secrets_file_path)
 
@@ -41,12 +33,3 @@ def Config_API( path = os.path.abspath(__file__)):
 if __name__ == '__main__':
     key = Config_API()
     print(key)
-# # Example path ending with a folder name
-# path1 = "E:\FAI_Project\Finance-Management-using-AI\email_category"
-# last_folder1 = os.path.basename(os.path.normpath(path1))
-# print(f"Last folder in '{path1}': {last_folder1}")
-
-# # Example path ending with a trailing slash
-# path2 = os.path.abspath(__file__)
-# last_folder2 = os.path.basename(os.path.normpath(path2))
-# print(f"Last folder in '{path2}': {last_folder2}")

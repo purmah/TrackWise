@@ -72,7 +72,7 @@ def format_response():
             From: Chase < no.reply.alerts@chase.com >
             Date: Fri, 31 Oct, 2025, 8:49 pm
             Subject: Here's your atm receipt
-            To: < vedantranade2612@gmail.com >
+            To: <  >
             Details from your ATM visit on 10/31/2025 08:49 PM ."""
     
     match1 = re.match(r"Amount: ([\d.]+) \((\w+)\) ,Purchase_Category: (\w+)", input_string)

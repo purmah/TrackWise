@@ -1,7 +1,7 @@
 # from imap_tools import MailBox
 
 # password = 'cndyupggwphmicvu'
-# username = 'ai.39.vedant.ranade@gmail.com'
+# username = ''
 
 # with MailBox("imap.gmail.com").login(username=username, password= password,initial_folder = 'INBOX') as mb:
 #     print(mb.folder.list())
@@ -14,7 +14,7 @@ from imap_tools import MailBox, AND
 import re
 
 # Define your IMAP server and credentials
-IMAP_USER = 'ai.39.vedant.ranade@gmail.com'
+IMAP_USER = ''
 IMAP_PASSWORD = 'cndyupggwphmicvu'
 IMAP_SERVER = 'imap.gmail.com'
 
