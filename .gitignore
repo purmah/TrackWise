@@ -141,4 +141,5 @@ vite.config.ts.timestamp-*
 .secrets.yaml
 secrets.yaml
 .myenv/
-myenv/
+myenv/.DS_Store
+.DS_Store
